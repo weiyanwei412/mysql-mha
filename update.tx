@@ -1,0 +1,2 @@
+更新MHA 切换脚本不支持 非ssh 22端口的bug
+使用非22端口的mha,可以使用nossh-port-22-bug-update的切换脚本
