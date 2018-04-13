@@ -1,4 +1,5 @@
-高可用环境准备
+## 高可用环境准备
+````
 准备两台centos6.9系统的虚拟机
 IP地址规划为
 192.168.56.200 node1 master
@@ -376,7 +377,7 @@ master_ip_online_change_script= /etc/masterha/master_ip_online_change
 [root@node1 masterha]# cat start-manager.sh 
 nohup /usr/bin/masterha_manager --global_conf=/etc/masterha/masterha_default.conf --conf=/etc/masterha/app1.conf  > /tmp/mha_manager.log 2>&1 &
 [root@node1 masterha]# 
-
+````
 
 
 
